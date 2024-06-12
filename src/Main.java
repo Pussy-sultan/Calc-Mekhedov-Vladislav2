@@ -91,7 +91,7 @@ public class Main {
 
         public static boolean isRoman(String argument) {
             boolean isRoman = false;
-            for (int i = 1; i < romanArray.length - 1; i++) {
+            for (int i = 1; i < romanArray.length; i++) {
                 if (argument.equals(romanArray[i])) {
                     isRoman = true;
                     break;
