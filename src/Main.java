@@ -61,7 +61,7 @@ public class Main {
             case "VIII" -> 8;
             case "IX" -> 9;
             case "X" -> 10;
-            default -> throw new RuntimeException("Вы ввели некорректное число. Числа должны начинаться от 1 до 10");
+            default -> throw new RuntimeException("Вы ввели некорректное число. Числа должны начинаться от 1 до 10 ( от I до X) ");
         };
     }
 
